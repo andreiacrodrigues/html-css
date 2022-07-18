@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMedias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzir Audio</h1>
+    <p>Vamos a aprender a reproduzir audios em HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="sounds/guanacast-33.mp3" type="audio/mpeg">
+        <source src="sounds/guanacast-33.ogg" type="audio/ogg">
+        <source src="sounds/guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente o seu navegador não consegue produzir audio. <a href="sounds/guanacast-33.mp3">Clique para baixar o arquivo MP3</a></p>
+    </audio>
+
+    <!-- <audio src="sounds/As You Fade Away - NEFFEX.mp3" controls autoplay></audio> -->
+    <!--MP3 WAV OGG compatibilidade 100% com maioria dos navegadores-->
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*Medidas Absolutas: 
+                cm, mm, in (polegada), px (pixel-RECOMENDADO PARA FONT-SIZE!), [pt (ponto), pc - Nao utilizado em tela]
+
+             Medidas Relativas:
+                em (tamanho atual da fonte M maiusculo - RECOMENDADO PARA FONT-SIZE), ex  (tamanho da fonte x minuscula), rem (relativo ao tamanho configurado no body), vw (largura tamanho do ecra %), vh (altura do tamanho do ecra %), %
+
+                16px geralmente = 1em
+
+             */
+            font-size: 10px;
+            font-weight: bolder;
+            /*lighter; normal; bold; bolder */
+            /*100-900 */
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+        h1{
+            font: italic bolder 3em "Work Sans", sans-serif;
+            /*shorthand font
+            - font-style -> font-weight - font-size -> font-family
+
+            font-family: "Work Sans", sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            
+            */
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quo ratione odit non quae sit libero perferendis nobis, explicabo cupiditate necessitatibus, saepe quam tenetur hic ipsam error vero itaque. Recusandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur obcaecati omnis deserunt dolorem natus illum dicta officia eius dolorum distinctio repudiandae, inventore sed molestiae, delectus perspiciatis eveniet amet iste corporis?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore laborum facere est reprehenderit odio dolorum earum maxime rem laudantium aliquam! Consectetur tempore architecto earum quam doloremque vitae iste nam sint!</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, tempora. Repellendus, consequatur! Corrupti, iure, maxime optio delectus libero ipsum inventore reprehenderit perferendis eum, nobis atque eveniet quisquam et nemo! Quae?</p>
+</body>
+</html>
