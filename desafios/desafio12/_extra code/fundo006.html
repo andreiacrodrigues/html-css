@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem de fundo</title>
+    <style>
+        body{
+            background-color: black;
+            background-image: url("imagem006.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        article {
+            width: 400px;
+            background-color: rgb(143, 105, 143);
+            margin: auto;
+            padding: 10px;
+            border-radius: 15px;
+        }
+
+        div#outside {
+            background-color: white;
+            width: 300px;
+            height: 300px;
+            margin: auto;
+            position: relative;
+        }
+
+        div#inside {
+            background-color: purple;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+
+        div#outside > p {
+            text-align: center;
+            margin: auto;
+            padding: 5px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <article>
+        <h1> Imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora libero quis odio explicabo reiciendis, tempore magnam rem architecto laudantium alias voluptate debitis modi nobis quo qui numquam recusandae ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor molestias voluptate dolore voluptatum consequatur! Optio laboriosam, voluptatum, vero quidem iure fuga delectus magni, quibusdam consequuntur vel tempora eaque deserunt velit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, atque eveniet. Consectetur molestiae quod debitis rerum iste illum magnam, laudantium quo amet numquam nulla exercitationem veritatis nesciunt asperiores dicta vel? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum tempora dicta a numquam, deleniti voluptas commodi optio ex voluptatum ab, ipsa accusantium magnam dignissimos distinctio exercitationem veniam consequuntur nobis? Sed.</p>
+
+        <div id="outside">
+            <div id="inside">
+                <p> VIDEO </p>
+
+            </div>
+
+        </div>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem reiciendis provident a veniam quasi iure laboriosam, quo in assumenda temporibus non deserunt sapiente similique obcaecati praesentium modi dignissimos suscipit accusantium.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut tenetur iusto rem repudiandae sed suscipit ipsa maiores quasi laboriosam consectetur dolorum quod omnis, qui soluta earum, nesciunt facere recusandae sunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora libero quis odio explicabo reiciendis, tempore magnam rem architecto laudantium alias voluptate debitis modi nobis quo qui numquam recusandae ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor molestias voluptate dolore voluptatum consequatur! Optio laboriosam, voluptatum, vero quidem iure fuga delectus magni, quibusdam consequuntur vel tempora eaque deserunt velit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, atque eveniet. Consectetur molestiae quod debitis rerum iste illum magnam, laudantium quo amet numquam nulla exercitationem veritatis nesciunt asperiores dicta vel? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum tempora dicta a numquam, deleniti voluptas commodi optio ex voluptatum ab, ipsa accusantium magnam dignissimos distinctio exercitationem veniam consequuntur nobis? Sed.</p>
+    </article>
+    
+</body>
+</html>
