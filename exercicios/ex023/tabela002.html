@@ -10,9 +10,17 @@
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
+
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgba(32, 31, 31, 0.945);
         }
 
         td, th {
@@ -28,8 +36,16 @@
         }
 
         thead, tfoot {
-            background-color: rgba(32, 31, 31, 0.842);
+            background-color:rgba(32, 31, 31, 0.945);
             color: white;
+        }
+
+        tbody > tr:nth-child(odd) {     /*ODD ou 2n-1*/
+            background-color: white;
+        }
+
+        tbody, tr:nth-child(even) {    /*EVEN ou 2n*/
+            background-color: lightgray;
         }
 
         td.num {
